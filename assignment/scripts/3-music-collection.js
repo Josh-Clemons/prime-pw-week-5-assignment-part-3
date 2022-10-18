@@ -59,7 +59,7 @@ console.log( 'added', addToCollection ('title2', 'artist1', 2000, [{name: 'back1
 console.log( 'added', addToCollection ('title3', 'artist1', 1999, [{name: 'pack1', duration: '12:13'}, {name: 'crack2', duration: '7:33'}, {name: 'crack3', duration: '1:13'}] ), 'to collection' );
 console.log( 'added', addToCollection ('title4', 'artist2', 1979, [{name: 'stack1', duration: '2:34'}, {name: 'stack2', duration: '9:33'}, {name: 'stack3', duration: '3:33'}] ), 'to collection' );
 console.log( 'added', addToCollection ('title5', 'artist2', 1699, [{name: 'knack1', duration: '2:56'}, {name: 'knack2', duration: '12:33'}, {name: 'knack3', duration: '2:23'}] ), 'to collection' );
-console.log( 'added', addToCollection ('title6', 'artist3', 1959, [{name: 'pack1', duration: '2:51'}, {name: 'pack2', duration: '22:33'}, {name: 'pack3', duration: '8:13'}] ), 'to collection' );
+console.log( 'added', addToCollection ('title6', 'artist3', 1959, [{name: 'pack1', duration: '2:51'}, {name: 'pack3', duration: '8:13'}] ), 'to collection' );
 console.log( 'current collection:', collection )
 
 showCollection (collection);
